@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Imagem Flexível</title>
+</head>
+<body>
+
+    <h1>Imagem Flexível</h1>
+    <p>Você está vendo a imagem completa? Experimente ampliar o tamanho da sua janela para aproveirar a melhor experiência &#x1F92F;</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/paisagem-p.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/paisagem-m.jpg" type="image/jpg">
+        <img src="imagens/paisagem-g.jpg" alt="Paisagem Desértica G">
+    </picture>
+</body>
+</html>
