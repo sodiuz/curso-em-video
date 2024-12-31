@@ -1,4 +1,8 @@
-# HTML-CSS-Curso
- Curso de HTML5 e CSS3. Foi realizado na plataforma do Curso em Vídeo, com o professor Gustavo Guanabara. 
+# Curso em Vídeo - Cursos que fiz na plataforma
 
- Estou aprendendo a criar sites e agora vou gerenciar meus repositórios.
+Este repositório tem como objetivo guardar todos os arquivos que criei ao estudar pela plataforma do grande professor Gustavo Guanabara (Curso em Vídeo)
+
+<h1>HTML5 e CSS3 (13/12/24 - )</h1> 
+
+
+
