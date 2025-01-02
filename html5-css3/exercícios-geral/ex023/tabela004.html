@@ -9,34 +9,45 @@
             font-family: Arial, Helvetica, sans-serif;
         }
 
-        table {
-            border-collapse: collapse;
-            width: 400px;
-        }
-        
-        table > tr > th {
+        h1 {
             text-align: center;
         }
 
-        td {
+        table {
+            border-collapse: collapse;
+            margin: auto;
+        }
+        
+        td, th {
             border: 1px solid black;
+            padding: 10px;
+        }
+
+        caption {
+            padding: 10px;
+            font-size: 1.5em;
+            font-weight: bold;
         }
         
     </style>
 </head>
 <body>
+    <h1>Exercício de Tabelas</h1>
     <table>
+        <caption>
+            Filmes Favoritos
+        </caption>
         <thead>
             <tr>
-                <th scope="col">Grupo</th>
+                <th scope="col">Grupos</th>
                 <th scope="col">Nomes</th>
-                <th scope="col" colspan="3">Filmes</th>
+                <th scope="colgroup" colspan="3">Filmes</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <th scope="row" rowspan="3">Mulheres</th>
-                <td>Ana Maria Santos</td>
+                <th scope="rowgroup" rowspan="3">Mulheres</th>
+                <td class="nomes">Ana Maria Santos</td>
                 <td>Alien</td>
                 <td>Rambo</td>
                 <td>Vingadores</td>
@@ -54,7 +65,7 @@
                 <td>Big Hero</td>
             </tr>
             <tr>
-                <th rowspan="3">Homens</th>
+                <th rowspan="3" scope="rowgroup">Homens</th>
                 <td>Bruno Mendonça</td>
                 <td>Intocáveis</td>
                 <td>Amnésia</td>
@@ -73,6 +84,10 @@
                 <td>Toy Story</td>
             </tr>
         </tbody>
+        <tfoot>
+            <th colspan="4" scope="row">Total</th>
+            <td>1000</td>
+        </tfoot>
     </table>
 </body>
 </html>
