@@ -4,16 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estudos de iframe</title>
+    <style> 
+        iframe {
+            width: 400px;
+            height: 400px;
+            border: 1px solid black;
+        }
+    </style>
 </head>
 <body>
     <h1>Testando o uso de um iframe</h1>
     <p>
         Acessando o site do 
         
-        <iframe src="https://sodiuz.github.io/projeto-cordel/cordel-moderno" frameborder="0"></iframe>
+        <iframe src="https://sodiuz.github.io/projeto-cordel/cordel-moderno" frameborder="0" height="500px" scrolling="yes">
+            <a href="https://sodiuz.github.io/projeto-cordel/cordel-moderno">Cordel Moderno</a>
+        </iframe>
 
         para aprender a programar.
     </p>
-    <p>O repositório do Guanabara <iframe src="https://gustavoguanabara.github.io" frameborder="0"></iframe>também é muito legal</p>
+    <p>O repositório do Guanabara <iframe src="https://gustavoguanabara.github.io" frameborder="0" width="500px"></iframe>também é muito legal</p>
 </body>
 </html>
