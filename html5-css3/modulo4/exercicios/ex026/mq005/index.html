@@ -35,7 +35,7 @@
     <script>
 
         function mudouTamanho() {
-            if (window.innerWidth >= 768) {
+            if (window.innerWidth >= 768 || window.matchMedia("(max-width: 768px) and (orientation: landscape)").matches) {
             itens.style.display = 'block'
             } else {
                 itens.style.display = 'none'
