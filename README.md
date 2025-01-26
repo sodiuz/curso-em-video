@@ -6,6 +6,10 @@ Este repositório tem como objetivo guardar todos os arquivos que criei ao estud
 
 <p>O curso de HTML5 e CSS3 é baseado em 5 módulos.</p>
 
+<h2>Módulo 1</h2>
+
+<p>Nesse módulo aprendemos os conceitos básicos de HTML, Internet e um pouco de CSS.</p>
+
 
 
 
